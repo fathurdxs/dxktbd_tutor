@@ -3,69 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduSmart - Platform Kursus Online</title>
-    <link rel="stylesheet" href="style.css">
+    <title>dxktbd tutor - Platform Kursus Online</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo">Edu<span>Smart</span></div>
+        <div class="logo">dxktbd <span>tutor</span></div>
         <ul class="nav-links">
             <li><a href="#">Beranda</a></li>
             <li><a href="#courses">Kursus</a></li>
-            <li><a href="#">Testimoni</a></li>
-            <li><a href="#" class="btn-primary">Daftar Sekarang</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#daftar" class="btn-primary">Daftar Sekarang</a></li>
         </ul>
     </nav>
 
     <header class="hero">
         <div class="hero-content">
-            <h1>Tingkatkan Skill Kamu dengan Mentor Berpengalaman</h1>
-            <p>Akses ribuan materi belajar berkualitas kapan saja dan di mana saja.</p>
-            <a href="#courses" class="btn-secondary">Lihat Kursus</a>
+            <h1>Tingkatkan Skill Bersama dxktbd tutor</h1>
+            <p>Belajar dari praktisi industri dengan kurikulum yang terstruktur dan mudah dipahami.</p>
+            <a href="#courses" class="btn-secondary">Mulai Belajar</a>
         </div>
     </header>
 
     <section class="courses" id="courses">
-        <h2 class="section-title">Kursus Terpopuler</h2>
+        <h2 class="section-title">Pilih Kursus Kamu</h2>
         <div class="course-grid">
-            
             <div class="card">
-                <div class="card-img" style="background-image: url('https://via.placeholder.com/300x180');"></div>
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=60');"></div>
                 <div class="card-body">
-                    <h3>Web Development Mastery</h3>
-                    <p>Belajar HTML, CSS, JS hingga React dari nol.</p>
+                    <h3>Web Development</h3>
+                    <p>Kuasai HTML, CSS, JavaScript hingga Framework Modern.</p>
                     <div class="price">Rp 499.000</div>
-                    <button class="btn-card">Ikuti Kursus</button>
+                    <button class="btn-card">Lihat Detail</button>
                 </div>
             </div>
 
             <div class="card">
-                <div class="card-img" style="background-image: url('https://via.placeholder.com/300x180');"></div>
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1561070791-26c11d6996ad?auto=format&fit=crop&w=500&q=60');"></div>
                 <div class="card-body">
-                    <h3>UI/UX Design for Pro</h3>
-                    <p>Mendesain antarmuka aplikasi yang intuitif dan cantik.</p>
+                    <h3>UI/UX Design</h3>
+                    <p>Mendesain tampilan aplikasi yang profesional dan user-friendly.</p>
                     <div class="price">Rp 350.000</div>
-                    <button class="btn-card">Ikuti Kursus</button>
+                    <button class="btn-card">Lihat Detail</button>
                 </div>
             </div>
 
             <div class="card">
-                <div class="card-img" style="background-image: url('https://via.placeholder.com/300x180');"></div>
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1551288049-bbbda536339a?auto=format&fit=crop&w=500&q=60');"></div>
                 <div class="card-body">
-                    <h3>Data Science Dasar</h3>
-                    <p>Analisis data menggunakan Python dan statistik.</p>
+                    <h3>Data Science</h3>
+                    <p>Olah data mentah menjadi informasi berharga bagi bisnis.</p>
                     <div class="price">Rp 550.000</div>
-                    <button class="btn-card">Ikuti Kursus</button>
+                    <button class="btn-card">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimoni">
+        <h2 class="section-title">Testimoni Alumni</h2>
+        <div class="testimonial-grid">
+            <div class="testi-card">
+                <div class="quote">“</div>
+                <p>Materi di dxktbd tutor sangat daging semua! Mentornya sabar membimbing sampai saya benar-benar paham logikanya.</p>
+                <div class="user-info">
+                    <img src="https://i.pravatar.cc/150?u=1" alt="User">
+                    <div>
+                        <h4>Rizki Pratama</h4>
+                        <span>Web Developer di Startup</span>
+                    </div>
                 </div>
             </div>
 
+            <div class="testi-card">
+                <div class="quote">“</div>
+                <p>Harga kursusnya terjangkau tapi kualitasnya kelas dunia. Sekarang saya lebih pede buat ambil project freelance.</p>
+                <div class="user-info">
+                    <img src="https://i.pravatar.cc/150?u=2" alt="User">
+                    <div>
+                        <h4>Sarah Azhari</h4>
+                        <span>Freelance Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="registration" id="daftar">
+        <div class="reg-container">
+            <h2>Daftar Sekarang</h2>
+            <p>Amankan slot kamu dan mulai belajar hari ini!</p>
+            <form class="reg-form">
+                <input type="text" placeholder="Nama Lengkap" required>
+                <input type="email" placeholder="Email Aktif" required>
+                <select>
+                    <option value="">Pilih Kursus</option>
+                    <option value="web">Web Development</option>
+                    <option value="uiux">UI/UX Design</option>
+                    <option value="data">Data Science</option>
+                </select>
+                <button type="submit" class="btn-submit">Kirim Pendaftaran</button>
+            </form>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 EduSmart Indonesia. Seluruh hak cipta dilindungi.</p>
+        <p>&copy; 2026 <strong>dxktbd tutor</strong> Indonesia. Seluruh hak cipta dilindungi.</p>
     </footer>
 
 </body>
