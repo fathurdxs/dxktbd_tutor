@@ -4,7 +4,7 @@ Proyek ini adalah implementasi *Landing Page* untuk platform kursus online berna
 
 ---
 
-## 📋 Informasi Mahasiswa
+## Informasi Mahasiswa
 * **Nama:** [Nama Lengkap Kamu]
 * **NIM:** [Nomor Induk Mahasiswa Kamu]
 * **Mata Kuliah:** [Nama Mata Kuliah, misal: Pemrograman Web]
@@ -12,7 +12,7 @@ Proyek ini adalah implementasi *Landing Page* untuk platform kursus online berna
 
 ---
 
-## 🛠️ Fitur dan Implementasi Teknis
+## Fitur dan Implementasi Teknis
 
 ### 1. Arsitektur Kode
 * **HTML5 Semantic:** Menggunakan tag semantik seperti `<nav>`, `<header>`, `<section>`, dan `<footer>` untuk mempermudah pembacaan struktur oleh *search engine* (SEO) dan *screen reader*.
@@ -29,7 +29,7 @@ Proyek ini adalah implementasi *Landing Page* untuk platform kursus online berna
 
 ---
 
-## 📂 Struktur File
+## Struktur File
 ```text
 .
 ├── index.html     # Struktur utama konten web
